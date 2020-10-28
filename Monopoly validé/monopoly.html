@@ -1,0 +1,102 @@
+ <!DOCTYPE html>
+<html lang="fr">
+	<!--Pierrick Cottin et Gomes Adam et Théo Julien-->
+	<head>
+		<meta charset="utf-8"/>
+		<title>Monopoly</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<!--Initialisation-->
+		<div id="ini" onclick="initialiser()">CLIQUEZ POUR INITIALISER</div>
+		<!--On bloque l'arrière plan-->
+		<div id="block"></div>
+		<!-- Début popup maison-->
+		<div id="popup">
+			<div id="enhaut"></div>
+			<div id="enbas"><button id='confmaison'> Acheter ! </button></div>
+		</div>
+		<!-- Informations sur les joueurs -->
+		<div id="info"></div>
+		<!--Bouton pour jouer un tour + nombre des dés-->
+		<div id="boutondés"><button id="boutondé">Lancé de dés !<br/></button><p id="dé"></p></div>	
+		<!--Renvoi vers les règles du monopoly-->
+		<input type="button" id="regle" value="Règles du Monopoly">
+		<!--Information de la case sur laquelle on clique-->
+		<div id="carte">INFO SUR LA CARTE</div>
+		<!--Sortie et informations en cours de jeu-->
+		<div id="sortie">Monopoly crée par: Pierrick COTTIN, Adam GOMES et Théo JULIEN</div>
+	<!--Partie graphisque du monopoly-->
+	<!--Conteneur total-->
+	<div id="conteneurtotal">
+		<div><!--monopoly-->
+			<div><!--Pion-->
+				<div id="p1" ></div>
+				<div id="p2" ></div>
+				<div id="p3" ></div>
+				<div id="p4" ></div>
+			</div><!--fin pion-->
+			<!--Cases-->
+			<div id="conteneur1">
+				<div class="element1"></div>
+				<div class="element1" onclick="infocarte(1)"></div>
+				<div class="element1"></div>
+				<div class="element1" onclick="infocarte(3)"></div>
+				<div class="element1" onclick="infocarte(4)"></div>
+				<div class="element1" onclick="infocarte(5)"></div>
+				<div class="element1" onclick="infocarte(6)"></div>
+				<div class="element1" onclick="infocarte(7)"></div>
+				<div class="element1"></div>
+			</div>
+			<div id="conteneur2">
+				<div class="element2" onclick="infocarte(31)"></div>
+				<div class="element2" onclick="infocarte(9)"></div>
+			</div>
+			<div id="conteneur3">
+				<div class="element3"></div>
+				<div class="element3" onclick="infocarte(10)"></div>
+			</div>
+			<div id="conteneur4">
+				<div class="element4" onclick="infocarte(29)"></div>
+				<div class="element4" onclick="infocarte(11)"></div>
+			</div>
+			<div id="conteneur5">
+				<div class="element5" onclick="infocarte(28)"></div>
+				<div class="element5" onclick="infocarte(12)"></div>
+			</div>
+			<div id="conteneur6">
+				<div class="element6" onclick="infocarte(27)"></div>
+				<div class="element6" onclick="infocarte(13)"></div>
+			</div>
+			<div id="conteneur7">
+				<div class="element7"></div>
+				<div class="element7" onclick="infocarte(14)"></div>
+			</div>
+			<div id="conteneur8">
+				<div class="element8" onclick="infocarte(25)"></div>
+				<div class="element8" onclick="infocarte(15)"></div>
+			</div>
+			<div id="conteneur9">
+				<div class="element9"></div>
+				<div class="element9" onclick="infocarte(23)"></div>
+				<div class="element9" onclick="infocarte(22)"></div>
+				<div class="element9" onclick="infocarte(21)"></div>
+				<div class="element9" onclick="infocarte(20)"></div>
+				<div class="element9" onclick="infocarte(19)"></div>
+				<div class="element9"></div>
+				<div class="element9" onclick="infocarte(17)"></div>
+				<div class="element9"></div>
+			</div>
+		</div>
+		<!--Tableau argent et joueurs-->
+		<div id="contereurjoueur">
+			<div class="joueur" id="j1" onclick="info(p1)">Joueur 1:<br/>10000$</div>
+			<div class="joueur" id="j2" onclick="info(p2)">Joueur 2:<br/>10000$</div>
+			<div class="joueur" id="j3" onclick="info(p3)">Joueur 3:<br/>10000$</div>
+			<div class="joueur" id="j4" onclick="info(p4)">Joueur 4:<br/>10000$</div>
+		</div>
+	</div><!--Fin conteneur total-->
+		<script src="jquery-3.2.1.min.js"></script>
+		<script src="monopoly.js"></script>
+	</body>
+</html>

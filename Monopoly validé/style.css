@@ -1,0 +1,476 @@
+/*//////////////////////////DEBUT MONOPOLY/////////////////////////*/
+#conteneur1{
+	display:flex;
+}
+.element1{
+	height:96px;
+	width:64px;
+}
+.element1:nth-child(1){
+	background-color: hsl(143,46.5%,47.6%);
+	height:96px;
+	width:96px;
+	background-image: url("adao/Carrées/depart.png");
+}
+.element1:nth-child(2){
+	background-color: hsl(143,46.5%,47.6%);
+	background-image: url("adao/Violets/case1.png");
+}
+.element1:nth-child(3){
+	background-color: hsl(143,46.5%,47.6%);
+	background-image: url("adao/Carrées/chance.png");
+}
+.element1:nth-child(4){
+	background-color: hsl(143,46.5%,47.6%);
+	background-image: url("adao/Violets/case2.png");
+}
+.element1:nth-child(5){
+	background-color: hsl(143,46.5%,47.6%);
+	background-image: url("adao/Matières/svt.png");
+}
+.element1:nth-child(6){
+	background-color: hsl(143,46.5%,47.6%);
+	background-image: url("adao/gris/case1.png");
+}
+.element1:nth-child(7){
+	background-color: hsl(143,46.5%,47.6%);
+	background-image: url("adao/gris/case2.png");
+}
+.element1:nth-child(8){
+	background-color: hsl(143,46.5%,47.6%);
+	background-image: url("adao/gris/case3.png");
+}
+.element1:nth-child(9){
+	background-image: url("adao/Carrées/prison.png");
+	background-color: hsl(143,46.5%,47.6%);
+
+	height:96px;
+	width:96px;
+}
+#conteneur2{
+	display:flex;
+	justify-content: space-between;
+	width:640px;
+}
+.element2{
+	height:64px;
+	width:96px;
+}
+.element2:nth-child(1){
+	background-color: hsl(143,46.5%,47.6%);
+	background-image: url("adao/Bleus/case1.png");
+}
+.element2:nth-child(2){
+	background-color: hsl(143,46.5%,47.6%);
+	background-image: url("adao/Roses/case1.png");
+}
+#conteneur3{
+	display:flex;
+	justify-content: space-between;
+	width:640px;
+}
+.element3{
+	height:64px;
+	width:96px;
+}
+.element3:nth-child(1){
+	background-color: hsl(143,46.5%,47.6%);
+	background-image: url("adao/Impots/cafe.png");
+}
+.element3:nth-child(2){
+	background-color: hsl(143,46.5%,47.6%);
+	background-image: url("adao/Roses/case2.png");
+}
+#conteneur4{
+	display:flex;
+	justify-content: space-between;
+	width:640px;
+}
+.element4{
+	height:64px;
+	width:96px;
+}
+.element4:nth-child(1){
+	background-color: hsl(143,46.5%,47.6%);
+	background-image: url("adao/Bleus/case2.png");
+}
+.element4:nth-child(2){
+	background-color: hsl(143,46.5%,47.6%);
+	background-image: url("adao/Roses/case3.png");
+}
+#conteneur5{
+	display:flex;
+	justify-content: space-between;
+	width:640px;
+}
+.element5{
+	height:64px;
+	width:96px;
+}
+.element5:nth-child(1){
+	background-image: url("adao/Matières/isn.png");
+	background-color: hsl(143,46.5%,47.6%);
+
+}
+.element5:nth-child(2){
+	background-color: hsl(143,46.5%,47.6%);
+	background-image: url("adao/Matières/maths.png");
+}
+#conteneur6{
+	display:flex;
+	justify-content: space-between;
+	width:640px;
+}
+.element6{
+	height:64px;
+	width:96px;
+}
+.element6:nth-child(1){
+	background-color: hsl(143,46.5%,47.6%);
+	background-image: url("adao/Verts/case2.png");
+}
+.element6:nth-child(2){
+	background-color: hsl(143,46.5%,47.6%);
+	background-image: url("adao/Oranges/case1.png");
+}
+#conteneur7{
+	display:flex;
+	justify-content: space-between;
+	width:640px;
+}
+.element7{
+	height:64px;
+	width:96px;
+}
+.element7:nth-child(1){
+	background-color: hsl(143,46.5%,47.6%);
+	background-image: url("adao/Carrées/chance2.png");
+
+}
+.element7:nth-child(2){
+	background-color: hsl(143,46.5%,47.6%);
+	background-image: url("adao/Oranges/case2.png");
+}
+#conteneur8{
+	display:flex;
+	justify-content: space-between;
+	width:640px;
+}
+.element8{
+	height:64px;
+	width:96px;
+}
+.element8:nth-child(1){
+	background-color: hsl(143,46.5%,47.6%);
+	background-image: url("adao/Verts/case1.png");
+}
+.element8:nth-child(2){
+	background-color: hsl(143,46.5%,47.6%);
+	background-image: url("adao/Oranges/case3.png");
+}
+#conteneur9{
+	display:flex;
+}
+.element9{
+	height:96px;
+	width:64px;
+}
+.element9:nth-child(1){
+	background-color: hsl(143,46.5%,47.6%);
+	background-image: url("adao/Carrées/colle.png");
+	background-color: Magenta;
+	height:96px;
+	width:96px;
+}
+.element9:nth-child(2){
+	background-color: hsl(143,46.5%,47.6%);
+	background-image: url("adao/Jaunes/case3.png");
+}
+.element9:nth-child(3){
+	background-color: hsl(143,46.5%,47.6%);
+	background-image: url("adao/Jaunes/case2.png");
+}
+.element9:nth-child(4){
+	background-color: hsl(143,46.5%,47.6%);
+	background-image: url("adao/Jaunes/case1.png");
+}
+.element9:nth-child(5){
+	background-color: hsl(143,46.5%,47.6%);
+	background-image: url("adao/Matières/chimie.png");
+}
+.element9:nth-child(6){
+	background-color: hsl(143,46.5%,47.6%);
+	background-image: url("adao/Rouges/case2.png");
+}
+.element9:nth-child(7){
+	background-color: hsl(143,46.5%,47.6%);
+	background-image: url("adao/Carrées/chance.png");
+}
+.element9:nth-child(8){
+	background-color: hsl(143,46.5%,47.6%);
+	background-image: url("adao/Rouges/case1.png");
+}
+.element9:nth-child(9){
+	background-color: hsl(143,46.5%,47.6%);
+	background-image: url("adao/Carrées/amphi.png");
+	background-color: Lime;
+	height:96px;
+	width:96px;
+}
+/*////////////////////////////Boutons et infos sur les combinaisons des dés///////////////////////*/
+#carte{
+	height:300px;
+	width:200px;
+	background-color:red;
+	position: absolute;
+		top: 350px; left: 750px;
+	text-align:center;
+	opacity: 0.70;
+	-webkit-border-radius: 31px;
+	border-radius: 31px;
+	font: normal 16px/1 "Times New Roman", Times, serif;
+	background: radial-gradient(closest-side, rgba(255,255,255,1) 0, rgba(255,255,255,1) 1%, rgba(255,10,10,1) 100%);
+	box-shadow: 8px 8px 6px 1px rgba(0,0,0,0.4) ;
+	text-shadow: 4px 4px 6px rgba(0,0,0,0.5) ;
+	transform: rotateX(9.167324722093172deg) rotateY(-29.79380534680281deg);
+}
+#boutondés{
+	position: absolute;
+		top: 125px; left: 125px;
+}
+#boutondé{
+	cursor:pointer;
+}
+#dé{
+	text-align:center	
+}
+#regle{
+	background-color: #8FFFFF;
+	text-align: center;
+	width: 150px;
+	height: 50px;
+	padding:6px 0 6px 0;
+	border-radius:75%;
+	border-bottom:7px solid #81F79F;
+	font:bold 13px Arial;
+	background:#2ECCFA;
+	box-shadow:2px 2px 3px #999;
+	position: absolute;
+		top: 485px; left: 380px;
+	color: #fff;
+	cursor:pointer;
+}
+#conteneurtotal{
+	display:flex;
+	justify-content: space-between;
+	width:100%;
+}
+/*////////////////////////////BLOQUAGE DE L'ARRIERE PLAN ///////////////////////*/
+#block{
+background-color:rgba(214,214,214,0.5);
+height:100%;
+width:100%;
+z-index: 2;
+position:absolute;
+left:0px; top:0px;
+visibility:hidden;
+}
+/*////////////////////////////INFO JOUEUR ET ARGENT ///////////////////////*/
+#conteneurjoueur{
+	display:flex;
+	flex-direction: column;
+}
+.joueur:nth-child(1){
+	height:96px;
+	width:96px;
+	background-color: cyan;
+	text-align:center;
+	height: 96px;
+	line-height: 48px;
+	cursor:help;
+}
+.joueur:nth-child(2){
+	height:96px;
+	width:96px;
+	text-align:center;
+	height: 96px;
+	background-color: yellow;
+	line-height: 48px;
+	cursor:help;
+}
+.joueur:nth-child(3){
+	height:96px;
+	width:96px;
+	background-color: magenta;
+	text-align:center;
+	height: 96px;
+	line-height: 48px;
+	cursor:help;
+}
+.joueur:nth-child(4){
+	height:96px;
+	width:96px;
+	background-color: lime;
+	text-align:center;
+	height: 96px;
+	line-height: 48px;
+	cursor:help;
+}
+/*////////////////////////////Pions///////////////////////*/
+#p1{
+	background-image: url("adao/Pions/p1.png");
+	height:16px;
+	width:64px;	
+	position:absolute;
+	transition:1s;
+}
+#p2{
+	background-image: url("adao/Pions/p2.png");
+	height:16px;
+	width:64px;
+	position:absolute;
+	transition:1s;	
+}
+#p3{
+	background-image: url("adao/Pions/p3.png");
+	height:16px;
+	width:64px;
+	position:absolute;
+	transition:1s;	
+}
+#p4{
+	background-image: url("adao/Pions/p4.png");
+	height:16px;
+	width:64px;
+	position:absolute;
+	transition:1s;	
+}
+/*////////////////////////////Tableau de bord///////////////////////*/
+#sortie{
+	position: absolute;
+		left:132px; top:228px; 
+	overflow:auto;
+	border: thin solid black;
+	height:192px;
+	width:384px
+}
+/*////////////////////////////Infos case et propriétés des joueurs///////////////////////*/
+#info{
+	height:425px;
+	width:500px;
+	border: thin solid black;
+	position:absolute;
+		top:-6000px; left:350px;
+	background-color: #ccccff;
+	z-index:3;
+	text-align:center;
+	color:#6600cc;
+	padding-top:8%;
+	overflow:auto;
+	transition:1s;
+}
+/*////////////////////////////Proposition d'acheter maison///////////////////////*/
+#popup{
+	height:250px;
+	width:40%;
+	background-color: purple;
+	z-index:4;
+	position:absolute;
+		left:30%;
+	border-radius:15%;
+	text-align:center;
+	color:white;
+	visibility:hidden;
+	transition:1s;
+}
+/*////////////////////////////Bouton du popup d'achat des maisons///////////////////////*/
+#confmaison{
+	background: #123852;
+	background-image: -webkit-linear-gradient(top, #123852, #952bb8);
+	background-image: -moz-linear-gradient(top, #123852, #952bb8);
+	background-image: -ms-linear-gradient(top, #123852, #952bb8);
+	background-image: -o-linear-gradient(top, #123852, #952bb8);
+	background-image: linear-gradient(to bottom, #123852, #952bb8);
+	-webkit-border-radius: 7;
+	-moz-border-radius: 7;
+	border-radius: 7px;
+	text-shadow: 2px 2px 0px #666666;
+	font-family: Georgia;
+	color: #fafafa;
+	font-size: 19px;
+	padding: 10px 20px 10px 20px;
+	border: solid #010114 2px;
+	cursor:pointer;
+}
+/*////////////////////////////Nombre de joueurs base.html///////////////////////*/
+select{
+	height:30px;
+	width:200px;
+}
+#nombres{
+	display:flex;
+	justify-content:center;
+	flex-direction: column;
+}
+#ok{
+	height:30px;
+	width:100px;
+}
+#cacher{
+visibility:hidden;
+}
+#prenom{
+	padding-top:10px;
+	height:150px;
+	width:800px;
+	display:flex;
+	justify-content:center;
+	align-content:stretch;
+}
+#prenom1{
+	text-align:center;
+	padding-top:35px;
+	height:115px;
+	width:200px;
+	background-color: cyan;
+}
+#prenom2{
+	text-align:center;
+	padding-top:35px;
+	height:115px;
+	width:200px;
+	background-color: yellow;
+}
+#prenom3{
+	text-align:center;
+	padding-top:35px;
+	height:115px;
+	width:200px;
+	background-color:magenta;
+}
+#prenom4{
+	text-align:center;
+	padding-top:35px;
+	height:115px;
+	width:200px;
+	background-color:lime;
+}
+#jouer{
+	position:absolute;
+	top:300px;
+	height:50px;
+	width:200px;
+	text-align:center;
+}
+/*////////////////////////////Initialisation monopoly.html///////////////////////*/
+#ini{
+z-index:10;
+height:100%;
+width:100%;
+background-color: blue;
+color:white;
+text-align:center;
+font-size:30px;
+position:absolute;
+	top:0px; left:0px;
+}

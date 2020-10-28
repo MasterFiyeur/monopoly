@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+	<meta charset="utf-8"/>
+	<title>Choix des joueurs</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+	<div id="nombres">
+		<div>
+			<h2>Combien y a-t-il de joueurs ?</h2><br/>
+		</div>
+		<div>
+			<select id="nombre">
+				<option value="2">2 joueurs</option>
+				<option value="3">3 joueurs</option>
+				<option value="4">4 joueurs</option>
+			</select>
+			<input type="button" id="ok" value="Ok !" onclick="setnombre()">
+		</div>
+	</div>
+	<div id="cacher">
+		<div id="prenom">
+			<div id="prenom1">Nom du joueur 1:<br/><input type="text" maxlength="10" id="pl1"></div>
+			<div id="prenom2">Nom du joueur 2:<br/><input type="text" maxlength="10" id="pl2"></div>
+			<div id="prenom3">Nom du joueur 3:<br/><input type="text" maxlength="10" id="pl3"></div>
+			<div id="prenom4">Nom du joueur 4:<br/><input type="text" maxlength="10" id="pl4"></div>
+		</div>
+		<div><input type="button" id="jouer" value="Jouer !" onclick="lancer()"></div>
+	</div>
+	<script src="jquery-3.2.1.min.js"></script>
+	<script src="monopoly.js"></script>
+	</body>
+
+</html>
